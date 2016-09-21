@@ -1,0 +1,139 @@
+ul.tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: pink;
+}
+
+ul.tab li {
+  float: left;
+}
+
+ul.tab li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Style the tab content */
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.why{
+  background-color:powderblue; 
+  border-radius:35px;
+    width: 800px;
+    border: 25px powderblue;
+    padding: 25px;
+    margin: 25px;
+}
+.fa fa-heart{
+    color: rgb(150,101,255);
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+h1 {
+  text-align: center;
+}
+/**h6 {
+  font-size:11px
+} **/
+
+h3 {
+  text-align: right;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: left;
+}
+.haha{
+  border-color:blue;
+}
+p1{
+  font-size:12px;
+}
+p {
+  font-size: 20px color: blue;
+  font-family: Ariel;
+}
+
+li {
+  color: blue
+}
+
+.div {
+  color: powderblue;
+}
+
+hello {
+  border-width: 10px;
+}
+footer{
+  width: 450px;
+  font-family:Times New Roman;
+    height: 145px;
+    background: red;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+  border-style:solid; 
+  background-color:pink;
+  border-color:violet;
+  border-radius:10px;
+  border-width: 9px;
+}
+footer:hover {
+    width: 1500px;
+}
+.nope{
+  background-color:#7c00ff;
+  border-style:solid;
+  border-color:#000000;
+  border-radius:10px;
+  color:#000000;
+}
+.hi{
+  font-size:18px;
+  font-family:courier;
+  color:#7f0000;
+}
+/**div1 {
+    float:bottom;
+    width: 100px;
+    height: 100px;
+    background: pink;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+    transition: width 5s, height 5s, transform 5s;
+}
+div:hover {
+    width: 500px;
+    height: 500px;
+    webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+} **/ 
+/**#background{
+  background-image:"http://www.planwallpaper.com/static/images/518169-backgrounds.jpg";
+}
